@@ -1,11 +1,7 @@
 # README - Welcome Admin 2/2 Challenge Solution
 
-## Description du Challenge
-
-Dans un environnement complexe et sécurisé, un défi a été lancé pour tester vos compétences en SQL. Ce challenge, nommé **Welcome Admin 2/2**, fait partie du CTF (Capture The Flag) du FCSC 2024. L'objectif est de passer cinq étapes successives de validation en interagissant avec une application Flask connectée à une base de données PostgreSQL. 
-
 ### Objectif
-Votre mission est d'exploiter des vulnérabilités SQL Injection pour obtenir le "flag" final. Chaque étape impose une nouvelle difficulté, et le flag ne peut être récupéré qu'en résolvant toutes les étapes dans l'ordre.
+La mission est d'exploiter des vulnérabilités SQL Injection pour obtenir le "flag" final. Chaque étape impose une nouvelle difficulté, et le flag ne peut être récupéré qu'en résolvant toutes les étapes dans l'ordre.
 
 ---
 
@@ -28,9 +24,6 @@ Votre mission est d'exploiter des vulnérabilités SQL Injection pour obtenir le
 4. Accédez à l'application Flask via :
    [http://localhost:8000/](http://localhost:8000/).
 
-⚠️ **Important** : Toute interaction autre que via le port réseau exposé (8000) ne sera pas considérée comme valide.
-
----
 
 ## Solution : Étapes et Payloads
 Chaque étape nécessite une injection SQL spécifique. Voici les détails étape par étape :
